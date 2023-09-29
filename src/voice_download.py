@@ -52,7 +52,4 @@ def download_online_model(url, dir_name):
     except Exception as e:
         raise Exception(str(e))
 
-url = "{model_url}" 
-dir_name = "{model_name}" 
-
-download_online_model(url, dir_name)
+download_online_model(model_url, model_name)
